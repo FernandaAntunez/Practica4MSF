@@ -21,12 +21,12 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-\1. Calcular la función de transferencia.
-\2. Determinar el modelo de ecuaciones integro-diferenciales.
-\3. Calcular el error en estado estacionario y la estabilidad en lazo abierto.
-\4. Emular y simular la respuesta del circuito en Simulink/Simscape a la señal "Uniform Random Number" con la siguiente configuración: min = -0.2 V; max = 1 V; seed = 106; Sample time = 0.5.
-\5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema normotenso-hipotenso y normotenso-hipertenso.
-\6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
+1. Calcular la función de transferencia.
+2. Determinar el modelo de ecuaciones integro-diferenciales.
+3. Calcular el error en estado estacionario y la estabilidad en lazo abierto.
+4. Emular y simular la respuesta del circuito en Simulink/Simscape a la señal "Uniform Random Number" con la siguiente configuración: min = -0.2 V; max = 1 V; seed = 106; Sample time = 0.5.
+5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema normotenso-hipotenso y normotenso-hipertenso.
+6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
 
 ## Descripción detallada del sistema
 
@@ -39,18 +39,18 @@ El modelo de Windkessel de cuatro elementos contiene dos elementos dinámicos. P
 Palabras clave: Circuito RLC; Controlador PID; Sistema Cardiovasculat; Modelo matemático; Simulaciones numéricas.
 
 ## Lista de archivos incluidos en el repositorio
-\1. Cuaderno computacional de MATLAB [.mlx].
-\2. Modelo de Simulink [.slx].
-\3. Archivos de Spyder [.py].
-\4. Imagen con los parámetros del controlador.
-\5. Imágenes de las simulaciones [.pdf y .png].
-\6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
+1. Cuaderno computacional de MATLAB [.mlx].
+2. Modelo de Simulink [.slx].
+3. Archivos de Spyder [.py].
+4. Imagen con los parámetros del controlador.
+5. Imágenes de las simulaciones [.pdf y .png].
+6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
 
 ## Referencias
-\[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
+[1] P. A. Valle, Syllabus para Modelado de Sistemas Fisiológicos, Tecnológico Nacional de México / Instituto Tecnológico de Tijuana, Tijuana, B.C., México, 2025. Permalink: https://biomath.xyz/course/
 
-\[2] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 4, Page 93.
+[2] M. C. Khoo, Physiological Control Systems Analysis Simulation, and Estimation, 2nd ed. Piscataway, New Jersey, USA: IEEE Press, 2018, Section 4, Page 93.
 
-\[3] N. S. Nise, Control Systems Engineering, 8th ed. Hoboken, New Jersey, USA: John Wiley & Sons, 2020.
+[3] N. S. Nise, Control Systems Engineering, 8th ed. Hoboken, New Jersey, USA: John Wiley & Sons, 2020.
 
 \[4] T. Kind, T. J. Faes, J. W. Lankhaar, A. Vonk-Noordegraaf & M. Verhaegen, "Estimation of three-and four-element Windkessel parameters using subspace model identification", IEEE Transactions on Biomedical Engineering, vol. 57, issue 7, pp. 1531-1538, Jul 2010. https://doi.org/10.1109/TBME.2010.2041351
