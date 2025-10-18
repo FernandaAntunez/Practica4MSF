@@ -10,13 +10,13 @@ authors:
     family-names: Antunez
     email: l22211745@tectijuana.edu.mx
     affiliation: TecNM-ITT
-repository-code: 'https://github.com/FernandaAntunez/Practica0MSF'
+repository-code: 'https://github.com/FernandaAntunez/Practica4MSF'
 keywords:
   - Circuito RLC
   - Controlador PID
-  - Sistema respiratorio
+  - Sistema Cardiovascular
   - Modelo matemático
   - Simulaciones numéricas
 license: BSD-2-Clause
 version: '1.0'
-date-released: '2025-09-19'
+date-released: '2025-10-17'
